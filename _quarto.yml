@@ -5,7 +5,7 @@ project:
   resources: [about/, img/, publication-search.js]
 website:
   title: "Viviane Hummes"
-  site-url: https://vivianehummes.pages.dev
+  site-url: https://vivihummes.pages.dev
   description: "Site acadêmico de Viviane Hummes — Educação Matemática"
   favicon: img/favicon.ico
   search: true
