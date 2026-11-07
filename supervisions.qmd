@@ -1,0 +1,16 @@
+---
+title: "Orientações"
+title-block: false
+page-layout: full
+toc: false
+---
+
+<div class="pagina-interna">
+
+  <section>
+    <h1>Orientações</h1>
+    <p>Lista completa disponível no <a href="https://orcid.org/0000-0003-2031-8238">ORCID</a>.</p>
+    <p><em>Orientações a serem adicionadas.</em></p>
+  </section>
+
+</div>
