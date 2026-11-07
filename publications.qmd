@@ -6,8 +6,8 @@ toc: false
 ---
 
 <div class="publicacoes-pagina">
-<h1>Publicações científicas</h1>
-    <p>Publicações registradas no <a href="https://orcid.org/0000-0003-2031-8238" target="_blank" rel="noopener">ORCID</a>; os links DOI são apresentados quando disponíveis no cadastro consultado.</p>
+<h1><i class="bi bi-journal-text" aria-hidden="true"></i> Publicações</h1>
+    
     <label for="pesquisa-publicacoes">Pesquisar publicações</label>
     <input class="pub-search" id="pesquisa-publicacoes" type="search" placeholder="Pesquisar por título…" aria-label="Pesquisar publicações">
     <p id="resultado-pesquisa" role="status" aria-live="polite"></p>
