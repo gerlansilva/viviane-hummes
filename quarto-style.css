@@ -45,3 +45,17 @@ body.page-layout-full main.content{max-width:1120px;margin:auto}
 .navbar .quarto-search-button{color:#fff!important}
 .nav-footer{font-size:13px;color:#81888e}
 @media(max-width:800px){.home-hero{min-height:auto;grid-template-columns:1fr;gap:25px;padding:50px 0}.home-hero-image{grid-row:1}.home-hero-image img{width:250px;height:265px}.home-hero h1{font-size:36px}.recent-grid{grid-template-columns:1fr}.pagina-interna,.publicacoes-pagina{padding:35px 0 70px}}
+
+/* Ajustes: página inicial exclusivamente biográfica, sem cartões ou seções duplicadas */
+.home-hero{min-height:calc(100vh - 150px);padding-top:55px;padding-bottom:55px}
+.hero-bio + .hero-bio{margin-top:15px}
+.social-links a{border:0;width:30px;height:30px;color:#65758a;font-size:19px}
+.social-links a:hover{color:var(--brand)}
+.orcid-icon{display:inline-flex;align-items:center;justify-content:center;width:21px;height:21px;border-radius:50%;background:#a6ce39;color:white;font-weight:700;font-size:11px;letter-spacing:-.4px}
+.pagina-interna h1 i,.publicacoes-pagina h1 i{color:var(--brand);font-size:.8em;margin-right:9px}
+.contact-link{display:inline-flex;align-items:center;gap:11px;font-size:16px}
+.contact-link i{font-size:22px}
+.project-card{background:#fff;box-shadow:none}
+.empty-record{color:#6b7280;font-size:14px}
+.pub-list .meta:empty{display:none}
+.navbar-nav .nav-link i{margin-right:5px}
