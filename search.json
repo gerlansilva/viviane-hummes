@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "contributors.html",
+    "href": "contributors.html",
+    "title": "Financiamento",
+    "section": "",
+    "text": "Financiamento\nA trajetória acadêmica e os projetos de pesquisa de Viviane Hummes receberam apoio das seguintes instituições e programas:\n\nCNPq — Programa Conhecimento Brasil, no âmbito do projeto Reflexão e prática docente: caminhos para o desenvolvimento da formação de professores que ensinam matemática no Brasil.\nCAPES — Bolsa de doutorado pleno no exterior, na Universitat de Barcelona.\nPrograma Margarita Salas — Apoio ao pós-doutorado na Universitat de Barcelona, com financiamento do Ministério de Universidades da Espanha e da União Europeia.\n\nAs informações sobre vínculos e financiamentos estão registradas no Currículo Lattes."
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contato",
@@ -33,5 +40,12 @@
     "title": "Orientações",
     "section": "",
     "text": "Orientações"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Licença",
+    "section": "",
+    "text": "Licença\nO conteúdo deste site é de autoria de Viviane Hummes, salvo indicação em contrário.\nA disponibilização de textos e informações nesta página não altera os direitos autorais das publicações científicas. Para consultar as condições de uso de cada artigo, acesse a página da respectiva revista pelo link do título.\nPara outras solicitações de uso, entre em contato."
   }
 ]
