@@ -6,30 +6,23 @@ toc: false
 ---
 
 <div class="home-hero">
-<div class="home-hero-copy">
-<h1>Viviane Hummes</h1>
-<p class="hero-subtitle">Professora e pesquisadora em Educação Matemática · UFSC</p>
-<div class="social-links"><a href="https://orcid.org/0000-0003-2031-8238" aria-label="ORCID" target="_blank" rel="noopener">iD</a> <a href="mailto:vivihummes@gmail.com" aria-label="E-mail">✉</a></div>
-<p class="hero-bio">Sou <strong>pesquisadora em Educação Matemática</strong>, com atuação na formação de professores que ensinam matemática e no desenvolvimento profissional docente. Minhas pesquisas investigam a <strong>reflexão sobre a prática pedagógica</strong>, o <strong>Lesson Study</strong> e os <strong>critérios de idoneidade didática</strong>.</p>
-<div class="research-tags"><span>Formação de professores</span><span>Lesson Study</span><span>Idoneidade didática</span><span>Desenvolvimento profissional</span><span>Educação Matemática Crítica</span><span>Reflexão sobre a prática</span></div>
-<a class="more-link" href="#sobre">Saiba mais →</a>
+  <div class="home-hero-copy">
+    <h1>Viviane Hummes</h1>
+    <p class="hero-subtitle">Professora e pesquisadora em Educação Matemática · UFSC</p>
+    <div class="social-links" aria-label="Perfis e contato">
+      <a href="https://orcid.org/0000-0003-2031-8238" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"><span class="orcid-icon" aria-hidden="true">iD</span></a>
+      <a href="mailto:vivihummes@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+    </div>
+    <p class="hero-bio">Pesquisadora em Educação Matemática, com atuação na formação de professores que ensinam matemática e no desenvolvimento profissional docente. Investiga a reflexão sobre a prática pedagógica, o <em>Lesson Study</em> e os critérios de idoneidade didática.</p>
+    <p class="hero-bio">Doutora em Didática da Matemática pela Universitat de Barcelona, onde realizou pós-doutorado com bolsa Margarita Salas. Mestra e licenciada em Matemática pela UFRGS.</p>
+    <div class="research-tags" aria-label="Temas de pesquisa">
+      <span>Formação de professores</span>
+      <span>Lesson Study</span>
+      <span>Idoneidade didática</span>
+      <span>Desenvolvimento profissional</span>
+      <span>Educação Matemática Crítica</span>
+      <span>Reflexão sobre a prática</span>
+    </div>
+  </div>
+  <div class="home-hero-image"><img src="about/avatar.png" alt="Fotografia de Viviane Hummes" loading="eager"></div>
 </div>
-<div class="home-hero-image"><img src="about/avatar.png" alt="Fotografia de Viviane Hummes"></div>
-</div>
-
-<div class="home-sections">
-<section id="sobre">
-<h2>Sobre</h2>
-<p>Doutora em Didática da Matemática pela Universitat de Barcelona, com bolsa CAPES para doutorado pleno no exterior, e pós-doutorado na mesma universidade, com bolsa Margarita Salas. Mestra e licenciada em Matemática pela Universidade Federal do Rio Grande do Sul (UFRGS).</p>
-</section>
-<section>
-<div class="section-heading"><h2>Publicações recentes</h2><a href="publications.qmd">Ver todas →</a></div>
-<div class="recent-grid">
-<article><small>2026 · Artigo</small><h3>Critérios de adequação didática em um ciclo formativo: o que compreenderam professores que ensinam matemática?</h3><a href="https://doi.org/10.1590/SciELOPreprints.16295">Consultar DOI ↗</a></article>
-<article><small>2025 · Artigo</small><h3>Reflection on practice in teacher training: analysis of Pythagorean Theorem class simulations with Didactic Suitability Criteria</h3><a href="https://doi.org/10.37001/ripem.v15i1.4247">Consultar DOI ↗</a></article>
-</div>
-</section>
-<section>
-<div class="section-heading"><h2>Projetos e grupos</h2><a href="projects.qmd">Conhecer projetos →</a></div>
-<p>LabForMat, GEPPROFEM, ICEM e projetos relacionados à formação de professores e à reflexão sobre a prática docente.</p>
-</section></div>
