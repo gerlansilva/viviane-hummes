@@ -1,10 +1,10 @@
 ---
-title: "Viviane Hummes"
-title-block: false
+title: false
 page-layout: full
 toc: false
 ---
 
+```{=html}
 <div class="home-hero">
   <div class="home-hero-copy">
     <h1>Viviane Hummes</h1>
@@ -26,3 +26,4 @@ toc: false
   </div>
   <div class="home-hero-image"><img src="about/avatar.png" alt="Fotografia de Viviane Hummes" loading="eager"></div>
 </div>
+```
