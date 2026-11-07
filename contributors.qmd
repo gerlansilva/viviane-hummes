@@ -1,0 +1,16 @@
+---
+title: "Financiamento"
+title-block-style: none
+page-layout: full
+toc: false
+---
+
+# Financiamento
+
+A trajetória acadêmica e os projetos de pesquisa de Viviane Hummes receberam apoio das seguintes instituições e programas:
+
+- **CNPq** — Programa Conhecimento Brasil, no âmbito do projeto *Reflexão e prática docente: caminhos para o desenvolvimento da formação de professores que ensinam matemática no Brasil*.
+- **CAPES** — Bolsa de doutorado pleno no exterior, na Universitat de Barcelona.
+- **Programa Margarita Salas** — Apoio ao pós-doutorado na Universitat de Barcelona, com financiamento do Ministério de Universidades da Espanha e da União Europeia.
+
+As informações sobre vínculos e financiamentos estão registradas no [Currículo Lattes](http://lattes.cnpq.br/1720086106736153).
