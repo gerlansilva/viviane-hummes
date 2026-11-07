@@ -103,3 +103,16 @@ body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-heade
 .publication-details p{font-size:13px;color:#586572;line-height:1.8;margin:0}
 .missing{color:#858b91;font-style:italic}
 @media(max-width:700px){.publication-toolbar{align-items:stretch;flex-direction:column}.publication-toolbar input,.publication-toolbar select{width:100%;min-width:0}.publication-toolbar label{width:100%}.publication-meta{grid-template-columns:1fr}.publication-card{padding:18px}}
+
+/* Etiquetas de ano, periódico e temática para cada publicação */
+.publication-tags{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+.pub-tag{display:inline-flex;max-width:100%;padding:4px 9px;border-radius:14px;font-size:11px;font-weight:600;line-height:1.45}
+.pub-tag-0{background:#e9f1fb;color:#1c62a5}
+.pub-tag-1{background:#e8f6ed;color:#2c7448}
+.pub-tag-2{background:#fff0e2;color:#925424}
+.pub-tag-3{background:#f1eafd;color:#6d4b93}
+.pub-tag-4{background:#e8f6f5;color:#2d7674}
+.publication-authors{font-size:13px;line-height:1.8;color:#57636e;margin:2px 0 14px}
+.publication-authors i{margin-right:5px;color:#6b859e}
+.publication-card{margin-bottom:0}
+.publication-card h2{border:0!important}
