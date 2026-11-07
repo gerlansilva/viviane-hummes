@@ -1,10 +1,10 @@
 ---
-title: "Publicações"
-title-block: false
+title: false
 page-layout: full
 toc: false
 ---
 
+```{=html}
 <div class="publicacoes-pagina">
 <h1><i class="bi bi-journal-text" aria-hidden="true"></i> Publicações</h1>
     
@@ -249,3 +249,4 @@ toc: false
 </div>
 
 <script src="publication-search.js" defer></script>
+```
