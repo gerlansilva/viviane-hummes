@@ -164,3 +164,12 @@ body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-heade
 .home-hero-copy .research-tags{display:flex!important;flex-flow:row wrap!important;align-items:center!important;justify-content:flex-start!important;column-gap:9px!important;row-gap:10px!important;width:100%!important;margin:22px 0 0!important;overflow:visible!important}
 .home-hero-copy .research-tags span{display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;width:auto!important;max-width:100%!important;margin:0!important;padding:6px 11px!important;white-space:normal!important;line-height:1.45!important;border-radius:18px!important;font-size:11px!important;vertical-align:middle!important}
 @media(max-width:800px){.home-hero-image .portrait-image{max-width:240px!important}.home-hero-copy .research-tags{gap:8px!important}}
+
+/* Rodapé inspirado na estrutura do site de Everaldo Silveira */
+.nav-footer{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:22px!important;padding:20px 24px!important;font-size:13px!important;color:#868c92!important}
+.nav-footer-left,.nav-footer-right{flex:0 1 auto!important;width:auto!important;text-align:left!important}
+.nav-footer-right{text-align:right!important}
+.nav-footer-left p,.nav-footer-right p{margin:0!important}
+.nav-footer a{color:#2373bf!important;text-decoration:none!important}
+.nav-footer a:hover{text-decoration:underline!important}
+@media(max-width:700px){.nav-footer{flex-wrap:wrap!important;justify-content:center!important;text-align:center!important}.nav-footer-left,.nav-footer-right{text-align:center!important}}
