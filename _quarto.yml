@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: _site
-  render: [index.qmd, publications.qmd, projects.qmd, supervisions.qmd, contact.qmd]
+  render: [index.qmd, publications.qmd, projects.qmd, supervisions.qmd, contact.qmd, license.qmd, contributors.qmd]
   resources: [about/, img/, publication-search.js, publications-catalog.js]
 website:
   title: "Viviane Hummes"
@@ -28,8 +28,8 @@ website:
         href: https://orcid.org/0000-0003-2031-8238
   page-footer:
     border: true
-    left: "© 2026 Viviane Hummes"
-    right: "[ORCID](https://orcid.org/0000-0003-2031-8238)"
+    left: "© 2026 Viviane Hummes · Feito com [Quarto](https://quarto.org/)."
+    right: "[Contato](contact.qmd) &nbsp; [Licença](license.qmd) &nbsp; [Financiamento](contributors.qmd)"
 format:
   html:
     theme: cosmo
