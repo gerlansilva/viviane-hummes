@@ -116,3 +116,27 @@ body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-heade
 .publication-authors i{margin-right:5px;color:#6b859e}
 .publication-card{margin-bottom:0}
 .publication-card h2{border:0!important}
+
+
+/* Publicações: lista bibliográfica compacta e colorida */
+#pub-catalog{display:block!important;max-width:1060px!important;padding:0 0 50px!important}
+#pub-catalog .pub-entry{display:block!important;background:transparent!important;border:0!important;border-bottom:1px solid #e6ebf1!important;border-radius:0!important;box-shadow:none!important;margin:0!important;padding:17px 0 19px!important}
+#pub-catalog .pub-entry:first-child{border-top:1px solid #e6ebf1!important}
+#pub-catalog .pub-entry-tags{display:flex!important;align-items:center!important;gap:7px!important;flex-wrap:wrap!important;margin:0 0 9px!important}
+#pub-catalog .pub-chip{display:inline-flex!important;align-items:center!important;width:auto!important;border-radius:5px!important;padding:3px 8px!important;font:600 11px/1.45 'Open Sans',sans-serif!important;white-space:normal!important}
+#pub-catalog .pub-chip-year{background:#e3eefc!important;color:#155eaa!important}
+#pub-catalog .pub-chip-journal{background:#e8f5ee!important;color:#26714d!important}
+#pub-catalog .pub-chip-topic{background:#f3ecfb!important;color:#725197!important}
+#pub-catalog .pub-chip-topic:nth-child(4n+1){background:#fff1e3!important;color:#9a631f!important}
+#pub-catalog .pub-entry-title{font-size:16px!important;line-height:1.5!important;font-weight:650!important;margin:0 0 5px!important;border:0!important;padding:0!important}
+#pub-catalog .pub-entry-title a{color:#195f9f!important;text-decoration:none!important}
+#pub-catalog .pub-entry-title a:hover{text-decoration:underline!important;text-underline-offset:3px!important}
+#pub-catalog .pub-entry-title .bi{font-size:11px!important;margin-left:3px;opacity:.62}
+#pub-catalog .pub-entry-authors{font-size:13px!important;line-height:1.55!important;color:#67717c!important;margin:0!important}
+#pub-catalog .pub-abstract{margin-top:7px!important;font-size:12px!important;color:#586c7e!important;border:0!important;padding:0!important}
+#pub-catalog .pub-abstract summary{display:list-item!important;cursor:pointer!important;color:#3979b3!important;font-weight:500!important}
+#pub-catalog .pub-abstract-body{padding:8px 0 0 16px!important;max-width:860px}
+#pub-catalog .pub-abstract-body p{font-size:12.5px!important;line-height:1.7!important;margin:0 0 7px!important}
+.pub-empty{color:#708090;font-size:14px}
+.publication-toolbar{margin:20px 0 20px!important}
+@media(max-width:650px){#pub-catalog .pub-entry{padding:15px 0!important}#pub-catalog .pub-entry-title{font-size:15px!important}}
