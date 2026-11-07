@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  render: [index.qmd, publications.qmd, projects.qmd, supervisions.qmd, contact.qmd]
+  resources: [about/, img/, publication-search.js]
+website:
+  title: "Viviane Hummes"
+  site-url: https://vivianehummes.pages.dev
+  description: "Site acadêmico de Viviane Hummes — Educação Matemática"
+  favicon: img/favicon.ico
+  search: true
+  navbar:
+    background: "#1e6dbb"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Sobre
+      - href: publications.qmd
+        text: Publicações
+      - href: projects.qmd
+        text: Projetos
+      - href: supervisions.qmd
+        text: Orientações
+      - href: contact.qmd
+        text: Contato
+    right:
+      - text: iD
+        href: https://orcid.org/0000-0003-2031-8238
+  page-footer:
+    border: true
+    left: "© 2026 Viviane Hummes · Feito com [Quarto](https://quarto.org/)"
+    center: "[ORCID](https://orcid.org/0000-0003-2031-8238)"
+    right: "[Contato](contact.qmd) · [Publicações](publications.qmd)"
+format:
+  html:
+    theme: cosmo
+    css: quarto-style.css
+    toc: false
+    lang: pt-BR
+    smooth-scroll: true
+    anchor-sections: false
+    title-block-banner: false
