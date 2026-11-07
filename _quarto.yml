@@ -12,23 +12,17 @@ website:
   navbar:
     background: "#1e6dbb"
     foreground: "#ffffff"
-    left:
+    right:
       - href: index.qmd
         text: Sobre
-        icon: house
       - href: publications.qmd
         text: Publicações
-        icon: journal-text
       - href: projects.qmd
         text: Projetos
-        icon: diagram-3
       - href: supervisions.qmd
         text: Orientações
-        icon: people
       - href: contact.qmd
         text: Contato
-        icon: envelope
-    right:
       - icon: person-badge
         aria-label: ORCID
         href: https://orcid.org/0000-0003-2031-8238
