@@ -1,5 +1,6 @@
 ---
-title: false
+title: "Projetos"
+title-block: false
 page-layout: full
 toc: false
 ---
