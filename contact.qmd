@@ -1,11 +1,12 @@
 ---
-title: "Contato"
-title-block: false
+title: false
 page-layout: full
 toc: false
 ---
 
+```{=html}
 <div class="pagina-interna">
   <h1><i class="bi bi-envelope" aria-hidden="true"></i> Contato</h1>
   <p><a class="contact-link" href="mailto:vivihummes@gmail.com"><i class="bi bi-envelope-at" aria-hidden="true"></i> vivihummes@gmail.com</a></p>
 </div>
+```
