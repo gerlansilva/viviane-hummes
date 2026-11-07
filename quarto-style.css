@@ -140,3 +140,15 @@ body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-heade
 .pub-empty{color:#708090;font-size:14px}
 .publication-toolbar{margin:20px 0 20px!important}
 @media(max-width:650px){#pub-catalog .pub-entry{padding:15px 0!important}#pub-catalog .pub-entry-title{font-size:15px!important}}
+
+#pub-catalog .pub-authors,#pub-other .pub-authors{display:flex!important;flex-wrap:wrap!important;gap:5px!important;margin:8px 0 4px!important}
+.pub-author-tag{border:1px solid #c9ddea!important;background:#eff6fb!important;color:#315c7f!important;border-radius:16px!important;padding:3px 10px!important;font:500 11px/1.5 "Open Sans",sans-serif!important;cursor:pointer!important}
+.pub-author-tag:hover{background:#e0eefb!important;border-color:#2b71b2!important}
+.pub-author-tag.is-selected{background:#246cae!important;color:#fff!important;border-color:#246cae!important}
+#pub-clear-author{border:0;background:transparent;color:#206db6;font-size:12px;text-decoration:underline;cursor:pointer}
+.pub-other-section{max-width:1060px;margin:26px 0 60px;border-top:1px solid #e1e7ef;padding-top:18px}
+.pub-other-section[hidden]{display:none!important}.pub-other-section>h2{font-size:18px!important}
+#pub-other .pub-entry{padding:14px 0 17px!important;border-bottom:1px solid #e6ebf1!important}
+#pub-other .pub-entry-title{font-size:15px!important;line-height:1.5!important;margin:0 0 7px!important}
+#pub-other .pub-entry-title a{color:#195f9f;text-decoration:none}
+#pub-other .pub-entry-tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:7px}
