@@ -1,11 +1,12 @@
 ---
-title: "Orientações"
-title-block: false
+title: false
 page-layout: full
 toc: false
 ---
 
+```{=html}
 <div class="pagina-interna">
   <h1><i class="bi bi-people" aria-hidden="true"></i> Orientações</h1>
-  <p class="empty-record">Registros de orientações ainda não cadastrados.</p>
+  
 </div>
+```
