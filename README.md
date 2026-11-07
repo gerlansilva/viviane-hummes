@@ -1,6 +1,6 @@
 # Viviane Hummes — site em Quarto
 
-Site acadêmico: https://vivianehummes.pages.dev
+Site acadêmico: https://vivihummes.pages.dev
 
 ## Como editar
 
