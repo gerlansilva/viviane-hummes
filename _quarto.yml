@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   render: [index.qmd, publications.qmd, projects.qmd, supervisions.qmd, contact.qmd]
-  resources: [about/, img/, publication-search.js]
+  resources: [about/, img/, publication-search.js, publications-catalog.js]
 website:
   title: "Viviane Hummes"
   site-url: https://vivihummes.pages.dev
