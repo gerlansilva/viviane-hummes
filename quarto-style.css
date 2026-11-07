@@ -152,3 +152,15 @@ body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-heade
 #pub-other .pub-entry-title{font-size:15px!important;line-height:1.5!important;margin:0 0 7px!important}
 #pub-other .pub-entry-title a{color:#195f9f;text-decoration:none}
 #pub-other .pub-entry-tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:7px}
+
+/* Perfil: retrato sem legenda, links sob a foto e tags sem sobreposição */
+.home-hero-image figure,.home-hero-image p{margin:0!important;padding:0!important}
+.home-hero-image figcaption,.home-hero-image .figure-caption{display:none!important}
+.home-hero-image .portrait-image{width:100%!important;max-width:320px!important;aspect-ratio:1/1!important;height:auto!important;border-radius:50%!important;object-fit:cover!important;filter:none!important;display:block!important;margin:0 auto!important}
+.home-hero-image .portrait-social{display:flex!important;justify-content:center!important;align-items:center!important;gap:14px!important;margin:17px 0 0!important}
+.home-hero-image .portrait-social a{width:32px;height:32px;display:inline-flex!important;justify-content:center;align-items:center;border:1px solid #d3dce6;border-radius:50%;color:#46627c;text-decoration:none;font-size:17px}
+.home-hero-image .portrait-social a:hover{border-color:#1e6dbb;background:#edf5fc;color:#1e6dbb}
+.home-hero-image .portrait-social .orcid-icon{width:20px;height:20px}
+.home-hero-copy .research-tags{display:flex!important;flex-flow:row wrap!important;align-items:center!important;justify-content:flex-start!important;column-gap:9px!important;row-gap:10px!important;width:100%!important;margin:22px 0 0!important;overflow:visible!important}
+.home-hero-copy .research-tags span{display:inline-flex!important;align-items:center!important;flex:0 0 auto!important;width:auto!important;max-width:100%!important;margin:0!important;padding:6px 11px!important;white-space:normal!important;line-height:1.45!important;border-radius:18px!important;font-size:11px!important;vertical-align:middle!important}
+@media(max-width:800px){.home-hero-image .portrait-image{max-width:240px!important}.home-hero-copy .research-tags{gap:8px!important}}
