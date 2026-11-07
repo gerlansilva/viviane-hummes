@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+:root{--brand:#1e6dbb;--text:#343c44;--muted:#6c7580}
+body{font-family:'Open Sans',sans-serif;color:var(--text);background:#fff;font-size:15px}
+#quarto-header nav.navbar{background:var(--brand)!important;border:0;min-height:63px;box-shadow:none}
+.navbar-brand,.navbar-nav .nav-link{color:#fff!important;font-weight:400!important}
+.navbar-brand{font-size:19px}.navbar-nav .nav-link{font-size:14px}
+.navbar-nav .nav-link:hover{text-decoration:underline}
+#quarto-content{max-width:100%;padding:0}
+main.content{max-width:1120px;margin:auto;padding:0 22px}
+body.page-layout-full main.content{max-width:1120px;margin:auto}
+.home-hero{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(240px,.8fr);gap:75px;align-items:center;min-height:625px;padding:70px 0 60px}
+.home-hero h1{font-size:46px;font-weight:700;letter-spacing:-.03em;line-height:1.14;margin:0 0 8px;border:0}
+.hero-subtitle{font-size:18px;color:#6e7780;margin-bottom:24px}
+.social-links{display:flex;gap:10px;margin-bottom:18px}
+.social-links a{width:29px;height:29px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #9baab8;border-radius:4px;color:#637487;text-decoration:none;font-size:12px;font-weight:700}
+.hero-bio{color:#545c64;line-height:1.72;font-size:14.5px;margin:0}
+.research-tags{display:flex;gap:7px;flex-wrap:wrap;margin:17px 0}
+.research-tags span{padding:5px 10px;font-size:11px;font-weight:600;border-radius:16px;background:#e7f1fc;color:#15578f}
+.research-tags span:nth-child(6n+2){background:#e8f6ea;color:#287546}
+.research-tags span:nth-child(6n+3){background:#fff1e5;color:#92581e}
+.research-tags span:nth-child(6n+4){background:#f0eafb;color:#694b92}
+.research-tags span:nth-child(6n+5){background:#fce9ee;color:#9b3855}
+.research-tags span:nth-child(6n+6){background:#e6f5f4;color:#227b76}
+.more-link{font-size:14px;color:var(--brand);text-decoration:underline;text-underline-offset:3px}
+.home-hero-image img{width:100%;height:355px;object-fit:cover;object-position:center 35%;border-radius:3px;filter:grayscale(100%)}
+.home-sections{padding-bottom:70px}.home-sections section{border-top:1px solid #e8ebef;padding:36px 0}
+.home-sections h2,.pagina-interna h1,.publicacoes-pagina h1{font-size:26px;font-weight:700;margin:0 0 17px}
+.home-sections p{max-width:810px;line-height:1.8;color:#57616c}
+.section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px}
+.recent-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.recent-grid article,.card{border:1px solid #e5eaef;border-radius:7px;padding:22px}
+.recent-grid h3{font-size:16px;line-height:1.55;font-weight:600;margin:10px 0 14px}
+.recent-grid small{color:var(--muted)}.recent-grid a{font-size:14px}
+.pagina-interna,.publicacoes-pagina{max-width:1080px;margin:auto;padding:60px 0 100px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card h3{font-size:19px;color:var(--brand)}.card p{margin-bottom:0}
+.pub-list{list-style:none;padding:0;margin-bottom:30px}
+.pub-list li{padding:16px 0;border-bottom:1px solid #e6ebf0}
+.pub-list .title{font-weight:600;display:block}
+.pub-list .meta{font-size:13px;margin-top:7px}
+.pub-list .meta a{display:inline-block;border:1px solid #c7dbed;background:#edf5fc;border-radius:4px;padding:3px 9px;text-decoration:none}
+.pub-search{display:block;width:100%;padding:10px 13px;border:1px solid #cbd5df;border-radius:7px;margin:10px 0 12px}
+.publicacoes-pagina h2{font-size:21px;color:var(--brand);padding-top:18px;border-bottom:1px solid #e9eef3;padding-bottom:9px}
+.pub-list li[hidden],.publicacoes-pagina h2[hidden]{display:none}
+.navbar .quarto-search-button{color:#fff!important}
+.nav-footer{font-size:13px;color:#81888e}
+@media(max-width:800px){.home-hero{min-height:auto;grid-template-columns:1fr;gap:25px;padding:50px 0}.home-hero-image{grid-row:1}.home-hero-image img{width:250px;height:265px}.home-hero h1{font-size:36px}.recent-grid{grid-template-columns:1fr}.pagina-interna,.publicacoes-pagina{padding:35px 0 70px}}
