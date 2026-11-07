@@ -59,3 +59,22 @@ body.page-layout-full main.content{max-width:1120px;margin:auto}
 .empty-record{color:#6b7280;font-size:14px}
 .pub-list .meta:empty{display:none}
 .navbar-nav .nav-link i{margin-right:5px}
+
+/* Ajuste fiel à estrutura da referência: destaque central, topo limpo e retrato circular em cores */
+#quarto-header nav.navbar{min-height:64px;background:#206ebc!important}
+#quarto-header .navbar>.container-fluid{max-width:none!important;padding-left:32px!important;padding-right:30px!important}
+#quarto-header .navbar-nav{gap:10px}
+#quarto-header .navbar-nav .nav-link{font-size:14px;letter-spacing:0}
+#quarto-header .navbar-brand{font-size:20px}
+body:has(.home-hero) #quarto-content{display:flex;align-items:center;flex:1;min-height:calc(100vh - 145px)}
+body:has(.home-hero) #quarto-content main.content{width:100%;max-width:1120px!important;margin:auto!important;padding:0 16px!important}
+body:has(.home-hero) .home-hero{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(275px,.8fr);align-items:center;gap:65px;min-height:0;padding:45px 0}
+.home-hero-copy h1{font-size:46px!important;font-weight:700!important;letter-spacing:-.035em;line-height:1.15;margin:0 0 9px!important;color:#353b41}
+.home-hero .hero-subtitle{color:#70777d;font-size:18px;margin:0 0 24px}
+.home-hero .hero-bio{line-height:1.68;font-size:14.5px;color:#4f5860;max-width:690px}
+.home-hero-image{width:100%;max-width:320px;justify-self:end}
+.home-hero-image img{width:320px;max-width:100%;height:auto;aspect-ratio:1/1;border-radius:50%!important;object-fit:cover;object-position:center center;filter:none!important}
+.home-hero .research-tags{margin:16px 0 0}
+body:has(.home-hero) .quarto-title-block,body:has(.home-hero) #title-block-header{display:none!important}
+.nav-footer{margin-top:auto}
+@media(max-width:800px){#quarto-header .navbar>.container-fluid{padding-left:18px!important;padding-right:18px!important}body:has(.home-hero) #quarto-content{min-height:0}body:has(.home-hero) .home-hero{display:flex;flex-direction:column-reverse;align-items:flex-start;gap:25px;padding:50px 0}.home-hero-image{align-self:center;max-width:240px}.home-hero-image img{width:240px;height:240px}.home-hero-copy h1{font-size:36px!important}}
