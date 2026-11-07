@@ -1,0 +1,14 @@
+---
+title: "Licença"
+title-block-style: none
+page-layout: full
+toc: false
+---
+
+# Licença
+
+O conteúdo deste site é de autoria de Viviane Hummes, salvo indicação em contrário.
+
+A disponibilização de textos e informações nesta página não altera os direitos autorais das publicações científicas. Para consultar as condições de uso de cada artigo, acesse a página da respectiva revista pelo link do título.
+
+Para outras solicitações de uso, entre em [contato](contact.qmd).
