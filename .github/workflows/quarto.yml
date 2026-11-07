@@ -9,6 +9,9 @@ on:
       - "publication-search.js"
       - ".github/workflows/quarto.yml"
   workflow_dispatch:
+concurrency:
+  group: quarto-site-main
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
