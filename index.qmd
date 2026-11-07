@@ -34,7 +34,14 @@ Doutora em Didática da Matemática pela Universitat de Barcelona, onde realizou
 
 ::: {.home-hero-image}
 
-![Fotografia de Viviane Hummes](about/avatar.png){loading="eager"}
+```{=html}
+<img src="about/avatar.png" alt="Fotografia de Viviane Hummes" loading="eager" class="portrait-image">
+<div class="portrait-social" aria-label="Perfis acadêmicos e contato">
+<a href="https://orcid.org/0000-0003-2031-8238" aria-label="ORCID" title="ORCID" target="_blank" rel="noopener noreferrer"><span class="orcid-icon" aria-hidden="true">iD</span></a>
+<a href="http://lattes.cnpq.br/1720086106736153" aria-label="Currículo Lattes" title="Currículo Lattes" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-person" aria-hidden="true"></i></a>
+<a href="mailto:vivihummes@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+</div>
+```
 
 :::
 
