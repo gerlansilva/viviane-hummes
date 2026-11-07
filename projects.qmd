@@ -1,10 +1,10 @@
 ---
-title: "Projetos"
-title-block: false
+title: false
 page-layout: full
 toc: false
 ---
 
+```{=html}
 <div class="pagina-interna">
 
   <section>
@@ -30,3 +30,4 @@ toc: false
   </section>
 
 </div>
+```
