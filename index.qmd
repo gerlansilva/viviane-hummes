@@ -13,23 +13,20 @@ toc: false
 
 <p class="hero-subtitle">Professora e pesquisadora em Educação Matemática · UFSC</p>
 
-<div class="social-links" aria-label="Perfis e contato">
-<a href="https://orcid.org/0000-0003-2031-8238" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"><span class="orcid-icon" aria-hidden="true">iD</span></a>
-<a href="mailto:vivihummes@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
-</div>
-
 Pesquisadora em Educação Matemática, com atuação na formação de professores que ensinam matemática e no desenvolvimento profissional docente. Investiga a reflexão sobre a prática pedagógica, o *Lesson Study* e os critérios de idoneidade didática.
 
 Doutora em Didática da Matemática pela Universitat de Barcelona, onde realizou pós-doutorado com bolsa Margarita Salas. Mestra e licenciada em Matemática pela UFRGS.
 
 ::: {.research-tags}
 
+```{=html}
 <span>Formação de professores</span>
 <span>Lesson Study</span>
 <span>Idoneidade didática</span>
 <span>Desenvolvimento profissional</span>
 <span>Educação Matemática Crítica</span>
 <span>Reflexão sobre a prática</span>
+```
 
 :::
 
