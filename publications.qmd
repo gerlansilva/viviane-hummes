@@ -10,7 +10,8 @@ toc: false
 <div class="publication-toolbar">
   <label><span>Pesquisar artigos</span><input type="search" id="pub-search" placeholder="Título, autoria, ano ou periódico"></label>
   <label><span>Tema</span><select id="pub-filter"><option value="all">Todos os temas</option><option value="Formação de professores">Formação de professores</option><option value="Lesson Study">Lesson Study</option><option value="Idoneidade didática">Idoneidade didática</option><option value="Reflexão docente">Reflexão docente</option><option value="Pensamento computacional">Pensamento computacional</option><option value="Educação inclusiva">Educação inclusiva</option><option value="Tecnologias digitais">Tecnologias digitais</option><option value="Álgebra">Álgebra</option><option value="Geometria">Geometria</option></select></label>
-  <span id="pub-count" aria-live="polite"></span>
+  <span id="pub-count" aria-live="polite"></span> <button id="pub-clear-author" type="button" hidden>Limpar autor</button>
 </div>
 <div id="pub-catalog" class="bibliography-list"></div>
+<section id="other-works-section" class="pub-other-section"><h2>Outras produções</h2><div id="pub-other"></div></section>
 <script src="publications-catalog.js" defer></script>
