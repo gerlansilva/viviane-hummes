@@ -1,18 +1,29 @@
-# Portfólio acadêmico — Viviane Hummes
+# Viviane Hummes — site em Quarto
 
-Versão baseada nos arquivos fornecidos pelo usuário, preservando biografia, fotografias, projetos e catálogo de publicações. O visual foi ajustado com cabeçalho azul, fonte Open Sans e temas de pesquisa em tags coloridas. A página de produção inclui busca por título e mantém os links DOI existentes.
+Site acadêmico: https://vivianehummes.pages.dev
 
-## GitHub
-Crie um repositório (por exemplo, `viviane-hummes-site`) e envie **os arquivos desta pasta na raiz**, não o ZIP. Ao criar o repositório, conecte o projeto existente `vivianehummes` do Cloudflare Pages ao GitHub (Settings / Builds & deployments, conforme a interface disponível), ou configure um novo Pages apontando para esse repositório.
+## Como editar
 
-## Cloudflare Pages
-- Projeto que corresponde ao domínio informado: `vivianehummes` (confirme no painel antes da implantação).
-- Para integração GitHub: **Framework preset** `None`, **Build command** vazio, **Build output directory** `/` (raiz).
-- Para implantação via Wrangler, com acesso autenticado à conta Cloudflare: `npx wrangler pages deploy . --project-name vivianehummes`.
-- **Importante:** não use `everaldo-site` como nome do projeto; esse nome constava incorretamente no `wrangler.jsonc` original.
+- `index.qmd` — apresentação
+- `publications.qmd` — lista de publicações e DOI
+- `projects.qmd` — projetos
+- `supervisions.qmd` — orientações
+- `contact.qmd` — contato
+- `_quarto.yml` — menu, busca e rodapé
+- `quarto-style.css` — visual inspirado no site de Everaldo Silveira
 
-## Publicações
-A versão atual preserva o catálogo estático que já veio no material original, com as URLs DOI disponíveis; não reivindica sincronização automática em tempo real. Novos registros ORCID exigem atualização de conteúdo ou implementação futura de API.
+## Visualizar localmente
 
-## Estado da publicação
-Este pacote está preparado para GitHub/Cloudflare, mas sua publicação requer acesso ao repositório GitHub e à conta Cloudflare Pages. A criação deste ZIP não modifica o site online.
+Instale o [Quarto](https://quarto.org/docs/get-started/) e execute:
+
+```bash
+quarto preview
+```
+
+Para gerar o site: `quarto render`.
+
+## Publicação
+
+A automação GitHub Actions renderiza os arquivos Quarto, copia o resultado para a raiz do repositório e faz um commit com `[skip ci]`. Esse procedimento permite a continuidade da implantação Git do Cloudflare Pages caso o projeto esteja conectado à branch `main`, com diretório de saída raiz (`.`) e sem comando de build no Cloudflare.
+
+A lista de publicações foi preservada a partir do catálogo HTML existente; **não** há atualização automática em tempo real pelo ORCID. Novos registros devem ser inseridos em `publications.qmd`.
